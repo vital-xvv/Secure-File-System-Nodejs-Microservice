@@ -1,0 +1,1 @@
+export const fileApi = "http://localhost:8080/api/file";

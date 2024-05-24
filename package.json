@@ -1,0 +1,35 @@
+{
+  "name": "nodejs_express_typescript_api",
+  "version": "1.0.0",
+  "description": "Little backend with three endpoints about activity managing with File entity",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --exit",
+    "start": "cross-env NODE_ENV=dev tsx index.ts"
+  },
+  "author": "Vitalii Huzii",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/chai-http": "^4.2.0",
+    "@types/express": "^4.17.21",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.12",
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.11.0",
+    "types": "^0.1.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2"
+  }
+}
